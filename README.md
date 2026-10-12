@@ -4,6 +4,8 @@ WarTune is a Windows desktop audio utility for Warzone and Black Ops 7. It manag
 
 **[Download WarTune 1.0 for Windows x64](https://github.com/pxnami/WarTune/releases/tag/v1.0.0)**
 
+[WarTune website](https://pxnami.github.io/WarTune/)
+
 ![WarTune desktop interface](docs/images/wartune.png)
 
 ## Getting started
@@ -51,3 +53,5 @@ The release was checked locally with the regression tests and all eight UI pages
 ## License
 
 The source is available under the [MIT license](LICENSE).
+
+The static website is published from `docs/` on the `main` branch through GitHub Pages. It uses HTML, CSS and JavaScript without a build step or external front-end dependencies.
