@@ -13,13 +13,15 @@
   <meta property="og:url" content="https://pxnami.github.io/WarTune/">
   <meta property="og:image" content="https://pxnami.github.io/WarTune/images/wartune.png">
   <link rel="icon" href="assets/wartune.ico">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=2">
   <script src="site.js" defer></script>
+  <script src="effects.js?v=2" defer></script>
 </head>
 <body>
+  <canvas class="ambient-grid" aria-hidden="true"></canvas>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="header">
-    <a class="brand" href="#top" aria-label="WarTune home"><span class="prompt">›</span> WARTUNE</a>
+    <a class="brand" href="#top" aria-label="WarTune home"><span class="prompt">›</span> <span class="brand-word">WARTUNE</span></a>
     <nav class="nav-links" aria-label="Main navigation">
       <details class="nav-dropdown"><summary>WARTUNE <span aria-hidden="true">▾</span></summary><div class="dropdown"><a href="#app">Overview</a><a href="#setup">Setup guide</a><a href="#download">Download</a></div></details>
       <a href="https://github.com/pxnami/WarTune">SOURCE CODE</a>
@@ -34,7 +36,7 @@
   </header>
   <main id="main">
     <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-copy"><div class="hero-rule" aria-hidden="true"></div><h1 id="hero-title">WARTUNE</h1><p class="hero-tagline">GAMING <span>·</span> AUDIO <span>·</span> TECHNOLOGY</p><p class="hero-description">Local audio tuning for Warzone.<br>Headphone EQ. Loud peaks under control.</p></div>
+      <div class="hero-copy"><div class="hero-rule" aria-hidden="true"></div><h1 id="hero-title" data-title="WARTUNE" aria-label="WarTune">WARTUNE</h1><p class="hero-tagline">GAMING <span>·</span> AUDIO <span>·</span> TECHNOLOGY</p><p class="hero-description" aria-label="Local audio tuning for Warzone. Headphone EQ. Loud peaks under control."><span class="typed-description" aria-hidden="true">Local audio tuning for Warzone.<br>Headphone EQ. Loud peaks under control.</span><span class="terminal-caret" aria-hidden="true"></span></p></div>
       <div class="hero-links">
         <a class="terminal-link red" href="https://github.com/pxnami/WarTune/releases/download/v1.0.0/WarTune-Windows-x64-1.0.0.zip"><span class="terminal-prompt" aria-hidden="true">›_</span><span>DOWNLOAD WARTUNE <small>WINDOWS x64 / v1.0.0</small></span><span class="arrow" aria-hidden="true">→</span></a>
         <a class="terminal-link gold" href="https://github.com/pxnami/WarTune"><span class="terminal-prompt" aria-hidden="true">›_</span><span>SOURCE CODE <small>OPEN SOURCE / MIT</small></span><span class="arrow" aria-hidden="true">↗</span></a>
